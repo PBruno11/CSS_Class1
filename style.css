@@ -1,0 +1,57 @@
+/* Definimos el tamaño de fuente para toda la pag */
+* {
+    font-size: 24px;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo para las secciones de contenido */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+/* Estilo para cada foto */
+.fotos {
+    border: 2px solid black;
+    padding: 25px;
+
+}
+
+.foto {
+    border: 4px dotted red;
+
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
